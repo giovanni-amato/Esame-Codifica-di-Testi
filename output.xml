@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cartoline.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "TEIdtd1.dtd">
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader xml:id="generale">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="main">L'amore ai tempi della Grande Guerra</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt xml:id="Studenti">
+                    <resp>Trascritto da:</resp>
+                    <name xml:id="Fabio">Fabio Carannante</name>
+					<name xml:id="Giovanni">Giovanni Alberto Amato</name>
+					<name xml:id="Davide">Davide Belardi</name>
+                </respStmt>
+                
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza:</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>studenti di Codifica di testi, Corso di Laurea Triennale di Informatica Umanistica <orgName ref="#Unipi"> Università di Pisa </orgName>
+                    <!-- COMPILAZIONE -->
+                    <date when="2020">2020</date>
+					<orgName ref="#Unipi"> Università di Pisa </orgName>
+                </edition>
+                
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codificato da:</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>                   
+                    <resp>Compilatore:</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico:</resp>
+                    <name xml:id="GP">Giacomo Paolicchi,</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile:</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>
+					<orgName ref="#Unipi"> Università di Pisa </orgName>
+				</publisher>
+                <pubPlace>
+					<placeName>
+						<country> Italia </country>
+						<settlement> Pisa </settlement>
+						<region> Toscana </region>
+					</placeName>
+				</pubPlace>
+                <availability status="restricted">
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#Unipi"> Università di Pisa </orgName> </addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>       
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+					<interp> Tre cartoline scritte da Giovanni Coliola all'amata Oliva 
+					Turtura durante la Prima Guerra Mondiale </interp>
+				</bibl>
+				
+                <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country key="IT">Italia</country>
+						<region>Liguria</region>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                </support>
+                                
+                                <!-- CONSERVAZIONE 
+                                buono = non occorrono interventi di restauro;
+discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>               
+                
+              
+                
+                <listOrg>
+                    <org xml:id="Unipi">
+                        <orgName> Università di <settlement>Pisa</settlement>
+						</orgName>
+                    </org>
+                </listOrg>
+				
+				<listRelation>
+					<p>
+						<interp>
+						In base alle cartoline analizzate, è possibile evincere un periodo di corrispondenza 
+					    tra Giovanni Coliola e Olivia Turtura che va almeno dal 1916 al 1917. Non conosciamo l'effettivo 
+						legame tra i due, è possibile però notare un forte sentimento amoroso da parte di Giovannino. 
+						Si suppone che il sentimento fosse ricambiato soprattutto dopo aver preso in considerazione
+						il fronte della cartolina numero 170, nel quale viene mostrato un forte affetto da parte del 
+						mittente anche nei confronti della madre di Oliva, rendendo implicito un coinvolgimento attivo
+						all'interno della famiglia dell'amata.
+						</interp>
+					</p>
+				</listRelation>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>                   
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+			
+			<calendarDesc>
+				<calendar xml:id="Gregorian">
+					<p> Calendario Gregoriano </p>
+				</calendar>
+			</calendarDesc>
+        </profileDesc>
+		
+		<encodingDesc>
+			<projectDesc>
+				<p> Il progetto consiste nella codifica di tre cartoline datate 1916/1917 conservate oggi nel
+					Museo Civico Etnografico "Giovanni Podenzana".
+				</p>
+			</projectDesc>
+			
+			<editorialDecl>
+				<p>Abbiamo mantenuto la punteggiatura originale e anche lettere maiuscole/minuscole</p>
+				<p>Paragrafatura originale mantenuta</p>
+			</editorialDecl>
+		</encodingDesc>
+        
+    </teiHeader>
+	
+	<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="1">
+    <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="sub" xml:id="title36">Sempre mia</title>
+				<author ref="#GC">Giovanni Coliola</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+					<orgName ref="#Unipi">Unipi</orgName>
+				</publisher>
+                <pubPlace>
+					<placeName>
+						<settlement>Pisa</settlement>
+						<region>Toscana</region>
+					</placeName>
+				</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#Unipi"> Università di Pisa </orgName> </addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+             <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note n="1">Sul retro in alto a sinistra è riportato il N.11, relativo al numero della serie</note>
+                <note n="2">Sul retro, nel margine sinistro, è riportata la scritta "Propr. Riserv."</note>
+                <note n="3">Sul retro in  alto a sinistra, sotto il titolo della cartolina, è riportata la scritta "Tojours à moi."</note>
+                <note n="4">Sul retro in basso a destra è riportata la scritta "Stampato in Italia."</note>
+                <note n="5">Sul retro in basso è riportata la scritta "stab. l. salomone roma"</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->      
+                    <title>Sempre mia</title>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                    <publisher ref="#EM">
+						<orgName>Edizioni Mastroianni</orgName>
+					</publisher>
+                    <!-- LUOGO -->
+                    <pubPlace>Roma</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si rPDF version for downloading and printing.ePub version for mobile devices.Mobi version (for Kindle).Front Matter Title i. Releases of the TEI Guideiferisce solo alla data di stampa -->
+                    <date when="1916">1916</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_036_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang mainLang="It" otherLangs="Fr">
+							Principalmente italiano con una frase sul retro in francese.
+						</textLang>
+						<msItem n="1" facs="Fronte36.jpg">						
+							<title>Sempre Mia. Toujours à moi.</title>
+						</msItem>
+						<msItem n="2" facs="Retro36.jpg">
+							<author ref="#GC">Giovanni Coliola</author>
+						</msItem>
+                    </msContents>
+                    
+                    
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <!--<stamp>francobollo - Regno d'Italia</stamp>-->
+                                </support>
+                                
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+						<handDesc>
+                            <summary>In alto a destra del retro è possibile notare un'annotazione ben leggibile.</summary>
+                            <handNote n="1">L'annotazione riporta il numero 36, utlizzato per catalogare la cartolina tra le restanti conservate al museo di La Spezia.</handNote>
+                        </handDesc>
+                    </physDesc>
+            
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>     
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>
+								<choice>
+									<orig>Giovannino</orig>
+									<reg>Giovanni</reg>
+								</choice>
+							</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+						<birth when="1895">1895
+							a <placeName ref="#NA">Napoli</placeName>
+						 </birth>
+						<death when="1980">1980
+						    a <placeName ref="#RV">Ravenna</placeName>
+						</death>
+                        <sex>M</sex>
+						<age>21</age>
+						<education>
+							<interp>Dalla cartolina e dal linguaggio utilizzato in quest'ultima è possibile evincere un grado di istruzione elevato.</interp>
+						</education>
+                        <occupation n="1">
+							<desc>Tenente Colonnello</desc>
+						</occupation>
+                    </person>
+
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+						<birth notAfter="1990"> 
+							<placeName ref="#RV">Ravenna</placeName>
+						</birth>
+                        <sex>F</sex>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="SP">
+                        <placeName>La Spezia</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">La Spezia</district>
+                        <district type="provincia">SP</district>
+                        <country>IT</country>
+                    </place>
+
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country>IT</country>
+                    </place>
+
+                    <place xml:id="RM">
+                        <placeName>Roma</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Roma</district>
+                        <district type="provincia">RM</district>
+                        <country>IT</country>
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+                    <org xml:id="EM">
+                        <orgName type="Editore">Edizioni Mastroianni</orgName>
+						<place><placeName ref="#RM">Roma</placeName></place>
+                        <desc>La casa editrice che ha stampato la cartolina e ne ha la proprietà riservata</desc>
+                    </org>
+
+					<org xml:id="S">
+                        <orgName type="Stampatore">
+							<choice n="1">
+								<abbr>Stab.</abbr>
+								<expan>Stabilimento</expan>
+							</choice>
+							<persName xml:id="LS">
+								<forename>
+									<choice n="2">
+										<abbr type="nome">L.</abbr>
+										<expan>Luigi</expan>
+									</choice>
+								</forename>
+								<surname>Salomone</surname>
+							</persName>
+						</orgName>
+						<place>
+							<placeName ref="#RM">Roma</placeName>
+						</place>
+                        <desc>La casa editrice che ha stampato la cartolina</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#SP">La Spezia</placeName> 
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="writing" when="1916-12-24">24/12/1916</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Oliva Turtura</persName>
+                    <placeName>
+						<interp>
+						    Supponiamo che la cartolina sia stata inviata a Ravenna all'indirizzo "Via Girolamo Rossi 58"
+						    in base ad una rapida analisi di alcune cartoline della raccolta.
+						</interp>
+					</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di innamorati</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+                <language ident="fr-FR">Francese</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="T36">
+        <!-- TRASCRIZIONE -->
+        <body>
+
+            <div xml:id="Fronte36">
+                <figure>
+                    <graphic url="Fronte36.jpg"/>
+                    <figDesc>
+                        <desc>Un uomo ammira con sguardo amorevole una donna appogiata ad un muretto. In primo piano, uno stagno con due cigni.</desc>
+                    </figDesc>
+                </figure>
+            </div>
+
+            <div xml:id="Retro36">
+                <figure>
+                    <graphic url="Retro36.jpg"/>
+                </figure>
+                <!-- Prima riga data e luogo -->
+                <div xml:id="Dateline36">
+                    <dateline xml:id="Dataluogo36">
+                        <lb/><placeName ref="#SP">Spezia,</placeName> li
+                        <date when="24-12-1916">24/12/1916</date>
+                    </dateline>
+                </div>
+
+                <div xml:id="testoretro36">
+
+                    <opener><salute><persName ref="#OT">Oliva</persName> mia,</salute></opener>
+                    <p><lb/>Non so esprimerti la gioia che sento nell'affer-</p>
+                    <p><lb/>marti che il 27 mattino col treno delle</p>
+                    <p><lb/>8 io sarò a Ravenna. Mia buona Oliva</p>
+                    <p><lb/>si è finalmente avverato un nostro sogno; augu-</p>
+                    <p><lb/>riamoci di cuore che tutte le nostre aspirazioni</p>
+                    <p><lb/>saranno anch'esse esaudite. Un carissimo</p>
+                    <p><lb/>ed affettuosissimo bacio</p>
+                    <p><lb/>tuo Giovannino</p>
+                
+                </div>
+
+                <div xml:id="stamparetro36">
+
+                    <p><lb/>N.11</p>
+                    <p><lb/>Sempre mia.</p>
+                    <p><lb/>Toujours à moi.</p>
+                    <p style="writing-mode:vertical-lr; text-orientation:sideaways-left"><lb/>Edizioni Mastroianni - Roma - propr. riserv.</p>
+                    <p><lb/>Stab. L. Salomone - Roma</p>
+                    <p><lb/>Stampato in Italia</p>
+                
+                </div>
+
+            </div>
+
+        </body>
+
+    </text>
+    
+</TEI>
+	<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="2">
+    <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="sub" xml:id="title72">Coraggio Patriottico</title>
+                <author ref="#GC">Giovanni Coliola</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher>
+					<orgName ref="#Unipi">Unipi</orgName>
+				</publisher>
+                <pubPlace>
+					<placeName>
+						<settlement>Pisa</settlement>
+						<region>Toscana</region>
+					</placeName>
+				</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#Unipi"> Università di Pisa </orgName> </addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt>
+                <note n="1">
+				    Sul retro troviamo una stampa Verlag Gustav Braun,Wien W55. - Druck J.Gerstmayer, Wien XIV ". J.Gerstmayer (1801-1870) è un pittore paesaggista di Vienna 
+					che ha dipinto il fronte della cartolina in questione.
+                    In alto a sinistra vi è il numero 72, l'identificativo della cartolina nell'archivio del progetto. 
+                    In basso al centro possiamo notare una stampa con sotto i numeri 240 e 1916, l'anno dell'emissione della cartolina
+                </note>
+			</notesStmt>
+				
+	        <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    
+                    <title>[Auf der Alm da gibt's ka Sund]</title> 
+                    <author ref="#JG"><abbr>J.</abbr>Gerstmayer</author>
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina.   -->
+					<publisher>
+						<orgName ref="#GB">Verlag Gustav Braun</orgName>
+					</publisher>
+					<pubPlace ref="#WN">Wien</pubPlace>
+                 
+                  
+                    <!-- CRONOLOGIA -->
+                    <date when="1916"> 1916</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_072_001/002</idno>
+                    </msIdentifier>
+                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents> 
+                        <summary>Cartolina Artistica</summary>
+                        <textLang mainLang="It" otherLangs="De">
+							Principalmente italiano con una frase sul fronte e qualche parola sul retro in tedesco. 
+						</textLang> 
+						<msItem n="1" facs="Fronte72.jpg">
+							<author ref="#JG">
+								<abbr>J.</abbr>Gerstmayer
+							</author>
+							<title>Auf der Alm da gibt's ka Sund</title>
+						</msItem>
+						<msItem n="2" facs="Retro72.jpg">
+							<author ref="#GC">
+								Giovanni Coliola
+							</author>
+						</msItem>
+                    </msContents>
+					
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                               </support>
+		                        
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+						<handDesc>
+                            <summary>.In alto a sinistra del retro è possibile notare un'annotazione ben leggibile.</summary>
+                            <handNote n="1">L'annotazione riporta il numero 72, utlizzato per catalogare la cartolina tra le restanti conservate  al museo di La Spezia.</handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>
+								<choice>
+									<orig>Giovannino</orig>
+									<reg>Giovanni</reg>
+								</choice>
+							</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+						<birth when="1895">1895
+						  a <placeName ref="#NA">Napoli</placeName>
+						 </birth>
+						 <death when="1980">1980
+						  a <placeName ref="#RA">Ravenna</placeName>	
+						 </death>
+                        <sex>M</sex>
+						<age>21</age>
+						<education>
+							<interp>Dalla cartolina e dal linguaggio utilizzato in quest'ultima è possibile evincere un grado di istruzione elevato.</interp>
+						</education>
+                        <occupation n="1">
+							<desc>Tenente Colonnello</desc>
+						</occupation>
+                    </person>
+
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+						<birth when="1990">1990
+							<placeName ref="#RV">Ravenna</placeName>
+						</birth>
+						<death when="1980">1980
+						<placeName ref="#RV">Ravenna</placeName>
+						</death>
+						<sex>F</sex>
+                    </person>
+
+					<person xml:id="JG">
+                        <persName>
+                            <forename>
+								<choice>
+									<expan>Joseph</expan>
+									<abbr type="nome">J.</abbr>
+								</choice>
+							</forename>
+                            <surname>Gerstmayer </surname>
+                        </persName>
+						<birth when="1801-03-06">6/03/1801
+						  a <placeName ref="#WN">Wien</placeName>
+						 </birth>
+						 <death when="1870-09-14">14/09/1870
+						  a <placeName ref="#WN">Wien</placeName>	
+						 </death>
+                        <sex>M</sex>
+                        <occupation>
+							<desc>pittore</desc>
+						</occupation>
+                    </person>
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="MS">
+                        <placeName>Monte Santo</placeName>
+                        <settlement type="località">città</settlement>
+                    </place>
+					
+					 <place xml:id="WN">
+                        <placeName>Wien</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Wien</district> 
+                        <district type="provincia">WN</district>
+                        <country>AU</country>
+                    </place>
+
+					 <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district> 
+                        <district type="provincia">RV</district>
+                        <country>IT</country>
+                    </place>
+
+					 <place xml:id="NA">
+                        <placeName>Napoli</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Napoli</district> 
+                        <district type="provincia">Na</district>
+                        <country>IT</country>
+                    </place>
+                </listPlace>
+
+                <listOrg>
+                    <org xml:id="GB">
+                        <orgName type="Editore">Verlag Gustav Braun</orgName>
+                        <place><placeName ref="#WN">Wien</placeName></place>
+                        <desc>La casa editrice che ha stampato la cartolina</desc>
+                    </org>                
+                </listOrg>
+				
+                
+        </sourceDesc>
+    </fileDesc>
+        
+        <profileDesc>
+            <correspDesc xml:id="corresp72">
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MS">Monte Santo</placeName>
+                    <date type="writing" when="1916-12-19">1916/08/14</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName type="#OT">Oliva Turtura</persName>
+                    <placeName>
+						<interp>
+						    Supponiamo che la cartolina sia stata inviata a Ravenna all'indirizzo "Via Girolamo Rossi 58"
+						    in base ad una rapida analisi di alcune  cartoline della raccolta
+						</interp>
+					</placeName>
+                </correspAction>    
+            </correspDesc>
+            
+            <textClass>
+                <keywords scheme="">
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <!-- soggettario-->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Un soldato ed una donna nutrono una pecora</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+                <language ident="de-DE">Tedesco</language>
+            </langUsage>
+        </profileDesc>
+        
+    </teiHeader>
+    		
+		
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="cartolina72" n="2">
+        <!-- TRASCRIZIONE -->
+        <body>
+		
+            <div xml:id="Fronte72">
+                <figure>
+                    <graphic url="Fronte72.jpg"/> 
+                    <figDesc>
+					    <desc>Un soldato e una donna nutrono un agnellino con fiori di campo. Sullo sfondo, un paesaggio di montagna.</desc>
+                    </figDesc>
+				</figure>
+            </div>
+
+			<div xml:id="testofronte72">
+				<p><lb/>Auf der Alm da gibt's ka Sund</p><!-- Prima riga fronte-->
+			</div>
+                
+			<div xml:id="Retro72">
+                <figure>
+                    <graphic url="Retro72.jpg"/>
+                </figure>	
+			    <div xml:id="Dateline72"> 
+			        <dateline xml:id="Dataluogo72">
+					    <lb/><placeName ref="#MS">Monte Santo</placeName>
+						    <date when="1916-08-14">14/08/1916</date>
+				    </dateline> 
+			    </div>
+					
+				<div xml:id="testoretro72">
+
+                         <p><lb/>Il bombardamento non accen-</p><!-- seconda riga retro-->
+                         <p><lb/>na a smettere. Sempre avanti</p><!-- terza riga retro-->
+						 <p><lb/>per la grandezza d'Italia e</p><!-- quarta riga retro-->
+                         <p><lb/>per la pace dei popoli</p><!-- quinta riga retro-->
+                         <p><lb/>Giovannino</p>
+
+                </div>
+					 
+                <div xml:id="stamparetro72"> 
+
+						 <p style="writing-mode:vertical-lr; text-orientation:sideaways-left"><lb/>Verlag Gustav Braun,Wien</p><!-- prima stampa retro-->
+                         <p style="writing-mode:vertical-lr; text-orientation:sideaways-left"><lb/>Druck J.Gerstmayer,Wien </p><!-- seconda stampa  retro-->
+						 <p><lb/> 240  1916</p><!-- terza stampa retro-->	
+                         <p><lb/>72</p><!-- quarta stampa retro-->	
+
+                </div>
+
+            </div>
+            
+        </body>
+
+    </text>
+</TEI>
+	<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" n="3" xml:id="Cartolina170">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="sub" xml:id="title170"> Irresistibile lagnanza </title>    
+				<author ref="#GC">Giovanni Coliola</author>
+            </titleStmt>
+            
+            <publicationStmt> 
+                <publisher>
+					<orgName ref="#Unipi"> Università di Pisa </orgName>
+				</publisher>
+                <pubPlace>
+					<placeName>
+						<country> Italia </country>
+						<settlement> Pisa </settlement>
+						<region> Toscana </region>
+					</placeName>
+				</pubPlace>
+                <availability status="restricted">
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - <orgName ref="#Unipi"> Università di Pisa </orgName> </addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt xml:id="note170">
+                <note n="1">Anche nel fronte è possibile notare un testo scritto a mano da Giovannino</note>
+				<note n="2">In alto a sinistra è presente un rettangolo che racchiude la stampa "Produzione italiana"
+							Al centro sono presenti altre stampe: in una è scritto "Proprietà artistica riservata-Uff.Rev.Stampa Milano 1732";
+							in quella alla destra della cartolina viene riportato il numero "915-4".
+							Poco più in basso è presente il numero 170, l'identificativo della cartolina nell'archivio.</note>
+            </notesStmt>
+            
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini 
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico 
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->     
+                    <title>[Donna in verde con ombrello]</title>
+                    <author ref="#GC">Giovanni Coliola</author>
+					<publisher>
+						<orgName ref="#SM">Uff.Rev.Stampa Milano 1732</orgName>
+					</publisher>
+					<pubPlace ref="#MI">Milano</pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date when="1917">1917</date>
+                </bibl>
+                <msDesc>                    
+                    <msIdentifier>                      
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_170_001/002</idno>
+                    </msIdentifier>
+					                    
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents> 
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang> 
+						<msItem n="2" facs="Retro36.jpg">
+							<author ref="#GC">
+								Giovanni Coliola
+							</author>
+						</msItem>
+                    </msContents>                   
+                    
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                   
+                                </support>
+                                
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+						<handDesc>
+							<summary>E' possibile notare un'annotazione sulla parte destra ben leggibile</summary>
+							<handNote n="1">L'annotazione "170" è stata aggiunta successivamente per catalogare la cartolina in questione tra le restanti conservate al museo di La Spezia</handNote>
+						</handDesc>
+                    </physDesc> 
+                    
+                </msDesc>
+                
+                <!-- NOMI -->
+                
+                <listPerson>              
+                    <person xml:id="GC">
+                        <persName>
+                            <forename>
+								<choice>
+									<orig>Giovannino</orig>
+									<reg>Giovanni</reg>
+								</choice>
+							</forename>
+                            <surname>Coliola </surname>
+                        </persName>
+						<birth when="1895">1895
+						  a <placeName ref="#NA">Napoli</placeName>
+						</birth>
+						<death when="1980">1980
+						  a <placeName ref="#RV">Ravenna</placeName>
+						</death>
+                        <sex>M</sex>
+						<age>22</age>
+						<education>
+							<interp>Dalla cartolina e dal linguaggio utilizzato in quest'ultima è possibile evincere un grado di istruzione elevato.</interp>
+						</education>
+                        <occupation n="1">
+							<desc> Tenente Colonnello </desc>
+						</occupation>                        
+                    </person>
+					
+                    <person xml:id="OT">
+                        <persName>
+                            <forename>Oliva</forename>
+                            <surname>Turtura</surname>
+                        </persName>
+                        <sex>F</sex>
+						<birth notAfter="1990"> 
+							<placeName ref="#RV">Ravenna</placeName>
+						</birth>                    
+                    </person>                   
+                </listPerson>
+                
+                <listPlace>
+                    <place xml:id="MO">
+                        <placeName>Modena</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Modena</district>
+                        <district type="provincia">MO</district>
+                        <country>IT</country>                       
+                    </place>
+					
+					<place xml:id="MI">
+                        <placeName>Milano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Milano</district>
+                        <district type="provincia">MI</district>
+                        <country>IT</country>                       
+                    </place>
+					
+					<place xml:id="NA">
+						<placeName>Napoli</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Napoli</district>
+                        <district type="provincia">Na</district>
+                        <country>IT</country>                       
+                    </place>
+					
+					<place xml:id="RV">
+						<placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country>IT</country>                       
+                    </place>
+                </listPlace>
+                
+                <listOrg>
+					<org xml:id="SM">
+                        <orgName type="Editore">
+							<choice n="1">
+								<abbr>Uff.</abbr>
+								<expan>Ufficio</expan>
+							</choice>
+							<choice n="2">
+								<abbr>Rev.</abbr>
+								<expan>Revisione</expan>
+							</choice>
+							Stampa Milano							
+						</orgName>
+						<place>
+							<placeName ref="#MI">Milano</placeName>
+						</place>
+						<event type="Birth" when="1732">
+							<desc>Nel 1732 nasce l'editoria</desc>
+						</event>							
+                        <desc>La casa editrice che ha stampato la cartolina e ne possiede la proprietà artistica riservata</desc>
+                    </org>
+                </listOrg>
+                
+                
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <correspDesc xml:id="corresp270">
+                <correspAction type="sent">
+                    <persName ref="#GC">Giovanni Coliola</persName>
+                    <placeName ref="#MO">Modena</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="writing" when="1917-11-18">18/11/1917</date>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#OT">Olivia Turtura</persName>
+                    <placeName>
+						<interp>
+						Supponiamo che la cartolina sia stata inviata a Ravenna, in quanto ripetutamente
+						in altre cartoline ricorre l'indirizzo del destinatario "via Girolamo Rossi 58" sito
+						in Ravenna.
+						</interp>
+					</placeName>
+                </correspAction>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Donna vestita in verde con ombrello</term>
+                </keywords>
+            </textClass>
+            
+            <langUsage>
+                <language ident="it-IT">Italiano</language>
+            </langUsage>
+        </profileDesc> 
+
+    </teiHeader>
+    
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" n="3">
+        <!-- TRASCRIZIONE -->
+        <body>
+
+            <div xml:id="Fronte170">
+                <figure>
+                    <graphic url="Fronte170.jpg"/>
+                    <figDesc>
+						<desc>Un'avvenente signora vestita in verde si guarda intorno sorridendo con un ombrello giallo in mano.</desc>
+					</figDesc>
+                </figure>
+
+				<div xml:id="testofronte170">
+					
+					<opener><lb/><signed>Tuo<persName ref="#GC"><forename> Giovannino</forename></persName></signed></opener><!-- Prima riga fronte -->
+					<p><lb/>Ti prego di salutarmi con</p><!-- Seconda riga fronte -->
+					<p><lb/>molto affetto la mamma che </p><!-- Terza riga fronte -->
+					<p><lb/>sempre partecipa alle nostre gioie.</p><!-- Quarta riga fronte -->
+					<p><lb/>Un soavissimo bacio e mille carezze a lei.</p><!-- Quinta riga fronte -->
+					
+				</div>
+				
+				<div xml:id="stampefronte170">
+					<p xml:id="Stampafronte">
+						<lb/>
+							<gap reason="illegible" agent="rubbing">
+								<desc>Si nota una scritta sul fronte non leggibile perchè coperta dal manoscritto di <persName ref="#GC"><forename>Giovanni</forename></persName>.
+								</desc>								
+							</gap>
+					</p>
+				</div>			
+				
+            </div>			
+			
+			
+            <div xml:id="Retro170">
+				<figure>
+                    <graphic url="Retro170.jpg"/>
+                </figure>
+				<!-- Prima riga data e luogo -->
+				<div xml:id="Dateline170">
+					<dateline xml:id="Dataluogo170">
+						<lb/><placeName ref="#MO">Modena,</placeName>li
+						<date when="18-11-17">18/11/17</date>		
+					</dateline>
+				</div>
+				
+                <div xml:id="testoretro170">
+				
+                    <!-- Testo retro 170 -->
+                    <opener><lb/><salute><persName ref="#OT"><forename>Oliva</forename></persName> mia,</salute></opener><!-- Seconda riga retro -->
+					<p><lb/>Accetta un bacio lungo lungo che</p><!-- Terza riga retro -->
+					<p><lb/>ti porta tutto l’ardore e la purezza</p><!-- Quarta riga retro -->
+					<p><lb/>dei miei sentimenti, tutti i miei più</p><!-- Quinta riga retro -->
+					<p><lb/>forti e nobili sentimenti, il mio</p><!-- Sesta riga retro -->
+					<p><lb/>grande amore eterno.</p><!-- Settima riga retro -->
+					<p><lb/>Qui non ho mai un momento di tregua</p><!-- Ottava riga retro -->
+					<p><lb/>di riposo, pur tuttavia le mie la-</p><!-- Nona riga retro -->
+					<p><lb/>gnanze non sono troppe limitandosi</p><!-- Decima riga retro -->
+					<p><lb/>ad una sola, irresistibile, che non</p><!-- Undicesima riga retro -->
+					<p><lb/>ammette attenuanti e tu la conosci</p><!-- Dodicesima riga retro -->
+					<p><lb/>tu la sai <persName ref="#OT"><forename>Oliva</forename></persName> mia.</p><!-- Tredicesima riga retro -->
+					<p><lb/>Basta, i tempi miglioreranno</p><!-- Quattordicesima riga retro -->
+					<p><lb/>ed io sarò felice nella tua sola</p><!-- Quindicesima riga retro -->					
+					<p><lb/>felicità. Il tuo bell’amore coro-</p><!-- Sedicesima riga retro -->
+					<p><lb/>nerà di gioia la mia vita e con</p><!-- Diciassettesima riga retro -->
+					<p><lb/>questa speranza attendo e spero.</p><!-- Diciottesima riga retro -->
+                
+                </div>
+
+				<div xml:id="stamparetro170">
+					<p style="writing-mode:vertical-lr; text-orientation:sideaways-left"><lb/>Produzione<lb/> Italiana</p>
+					<p style="transform:rotateZ(-180deg)"><lb/>Proprietà artistica riservata - <orgName ref="#SM"><abbr>Uff.</abbr><abbr>Rev.</abbr> Stampa <placeName ref="#MI">Milano</placeName></orgName> 173</p>
+					<p style="writing-mode:vertical-lr; text orientation:sideaways-left"><lb/>915-4</p>	
+				</div>		
+				                 
+                                 
+            </div>
+
+        </body>
+
+    </text>
+
+</TEI>
+    
+</teiCorpus>
